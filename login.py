@@ -8,7 +8,7 @@ def pantalla_principal():
 
     root=Tk()
     root.title("VENTANA ADMINISTRATIVA")
-    root.iconbitmap("talk.ico")
+    #root.iconbitmap("talk.ico")
 
     raiz=Frame(root)
     raiz.pack()
@@ -34,7 +34,7 @@ def Inicio_Sesión():
     pantalla=Toplevel(root)
     pantalla.geometry("320x570")
     pantalla.title("Inicio de Sesión")
-    pantalla.iconbitmap("talk.ico")
+    #pantalla.iconbitmap("talk.ico")
 
     global fondos
     global usuario
@@ -82,7 +82,7 @@ def Registrar():
     pantalla1=Toplevel(root)
     pantalla1.geometry("320x570")
     pantalla1.title("Inicio de Sesión")
-    pantalla1.iconbitmap("talk.ico")
+    #pantalla1.iconbitmap("talk.ico")
 
     global fondos
     global entrada_usuario
